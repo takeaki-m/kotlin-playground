@@ -3,7 +3,12 @@ package org.example
 import io.kotest.core.spec.style.DescribeSpec
 import io.kotest.matchers.shouldBe
 
-class NestedTest : DescribeSpec ({
+/**
+ * DescribeSpecを使ったテストの例
+ *
+ * describeを使ってテストをグループ化し、contextを加える
+ */
+class DescribeSpecTest : DescribeSpec ({
   describe("an outer test") {
     it("an inner test") {
       1 + 2 shouldBe 3
