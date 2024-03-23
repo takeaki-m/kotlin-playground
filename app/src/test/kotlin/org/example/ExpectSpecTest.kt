@@ -18,7 +18,7 @@ class ExpectSpecTest : ExpectSpec({
   context("throw exception") {
     expect("thorw althmatic exception") {
       shouldThrow<ArithmeticException> {
-        // thorw althmatic exception
+        // throw arithmetic exception
         1 / 0
       }
     }
