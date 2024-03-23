@@ -3,6 +3,9 @@ package org.example
 import io.kotest.core.spec.style.FunSpec
 import io.kotest.matchers.string.shouldHaveLength
 
+/**
+ * Kotestのなかで使えるCallBackの実行例
+ */
 class CallbacksTest : FunSpec ({
   beforeEach {
     println("Hello from $it")

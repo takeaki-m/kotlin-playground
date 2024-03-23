@@ -3,6 +3,11 @@ package org.example
 import io.kotest.core.spec.style.FunSpec
 import io.kotest.matchers.shouldBe
 
+/**
+ * FunSpecを使ったテストの例
+ *
+ * 一番シンプルな形だと思う
+ */
 class FunSpecTest : FunSpec({
   test("sample test") {
     1 + 2 shouldBe 3
